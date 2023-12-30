@@ -40,7 +40,7 @@ function display_custom_fields_on_order_received_page( $text, $order ) {
   // Customize the message
   $additional_content = '';
   if ( $support_phone_number ) {
-    $additional_content .= 'For support, please contact us at <a href="tel:' . esc_attr( $support_phone_number ) . '">' . esc_html( $support_phone_number ) . '</a>.<br>';
+    $additional_content .= 'Please contact us at <a href="tel:' . esc_attr( $support_phone_number ) . '">' . esc_html( $support_phone_number ) . '</a>.<br>';
   }
   if ( $telegram_link ) {
     $additional_content .= 'You can also reach us on Telegram: <a href="' . esc_url( $telegram_link ) . '">Telegram</a>.<br>';
